@@ -1,0 +1,89 @@
+.gradient-background {
+    background: linear-gradient(300deg, #76D4DB, #7695DB, #C0D1DB);
+    background-size: 180% 180%;
+    animation: gradient-animation 7s ease infinite;
+}
+
+@keyframes gradient-animation {
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.brief-desciption {
+    font-size: 2.5rem;
+}
+
+hr {
+    border: 15px dotted black !important;
+    border-bottom: 0px !important;
+    width: 12% !important;
+    margin: auto !important;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    width: 60%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
+
+.heading-text {
+    color: #DBB176 !important;
+}
+
+h3 {
+    color: #76B4DB !important;
+}
+
+#contact-btn {
+    --bs-btn-color: #fff;
+    --bs-btn-bg: #76B4DB !important;
+    --bs-btn-border-color: #76B4DB !important;
+    --bs-btn-hover-color: black !important;
+    --bs-btn-hover-bg: #70E0D9 !important;
+    --bs-btn-hover-border-color: #70E0D9 !important;
+    --bs-btn-focus-shadow-rgb: 49, 132, 253;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #0a58ca;
+    --bs-btn-active-border-color: #0a53be;
+    --bs-btn-font-size: .85rem !important;
+    --bs-btn-padding-y: .10rem !important;
+    --bs-btn-padding-x: .10rem !important;
+}
+
+.footer-container {
+    display: block;
+}
+
+.footer-link {
+    color: black;
+    font-size: small;
+    text-decoration: none;
+
+}
+
+.footer-container>a:hover {
+    color: white;
+}
+
+.cc {
+    color: black;
+    font-size: small;
+}
+
+.brief-introduction>img:hover {
+    transform: scale(1.005);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
